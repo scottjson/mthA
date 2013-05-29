@@ -11,7 +11,7 @@ function mthA(number1, task, number2) {
             result = number1*number2;
             break;
 
-        case "divide":
+        case "divideby":
             result = number1/number2;
             break;
 
