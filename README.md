@@ -7,19 +7,17 @@ to assist in simple maths
 
 # Why? #
 
-For a lot of people symbols and calculations are confusing.
+For some people symbols and calculations are confusing.
 
-Why not replace symbols etc with words that can be understood and quicker to type then working out the calculation.
-
-mthA.js makes the process easier.
+mthA replaces symbols with words so that it can be more easily understood, and for some people, quicker to type than working out the calculation.
 
 
 # Usage #
 
 To use:
 
-	var result = mthA(20,'%off',50);
-	var result2 = mthA(60,'toradians');
+	var result = mthA(20).percentOf(50).value;
+	var result2 = mthA(60).toRadians().value;
 
 # Goals #
 
