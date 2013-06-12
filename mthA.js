@@ -49,17 +49,18 @@
     mthA.prototype.timesedBy =
     mthA.prototype.multipliedBy = multiplyBy;
 
-    mthA.prototype.divideBy = divideBy;
+    mthA.prototype.divideBy = 
+    mthA.prototype.dividedBy = divideBy;
 
-    mthA.prototype.modulus = modulus;
+    mthA.prototype.modulus = 
+    mthA.prototype.mod = modulus;
 
     mthA.prototype.percentOf = percentOf;
 
     mthA.prototype.percentOff = percentOff;
 
-    mthA.prototype.percentOff = percentOff;
-
-    mthA.prototype.toRadians = toRadians;
+    mthA.prototype.toRadians = 
+    mthA.prototype.inRadians = toRadians;
 
     window.mthA = mthA;
 
@@ -70,7 +71,7 @@
         var result = document.getElementById("mthAresult");
         result.value = mthA(number1)[task](number2).value;
     }
-    
+
     window.mthACalculate = mthACalculate;
 
 })();
